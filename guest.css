@@ -1,0 +1,8 @@
+.pages {padding-top:15px;}
+.pages a,.pages i {padding: 3px 6px; font-style:normal; border: 1px solid #CC9966; background:#ffffff; color: #000000; margin: 0 3px; text-decoration:none;}
+.pages a:visited {color: #000000; text-decoration:none;}
+.pages a:hover {color: #CC9966; text-decoration:none; border: 1px solid #000000;}
+.pages .cur {color:#ffffff; background: #CC9966; font-weight:bold;}
+.pages .vpered {margin:0 6px;}
+.pages .t3 {padding-left: 14px;padding-right: 14px; border:1px solid #eeeeee;}
+.pages i.ser {color:#999999; border:1px solid #999999;}

@@ -1,0 +1,17 @@
+User-Agent: *
+Host: www.teatrstdom.ru
+Sitemap: http://teatrstdom.ru/sitemap.xml
+Disallow: /gb/
+Disallow: /temp/
+Disallow: /quest/
+Disallow: /mysql_backup/
+Disallow: /np_list.php
+Disallow: /plays_N_A.php
+Disallow: /test.php
+Disallow: /main-texts.php
+Disallow: /guest-template
+Disallow: /functions.php
+Disallow: /db_config.php
+Disallow: /anketa.php
+Disallow: /affiche_content.php
+Disallow: /add_news.php

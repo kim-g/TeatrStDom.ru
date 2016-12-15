@@ -1,0 +1,9 @@
+.caption {font-family: Verdana; color: #333333;  font-size:22px; font-weight:bold; text-decoration: none;}
+.caption_black {font-family: Verdana; color: #333333;  font-size:22px; font-weight:bold; text-decoration: none;}
+.caption_big {font-family: Arial; color: #663300;  font-size:26px; font-weight:bold; text-decoration: none;}
+.author {font-weight:bold; font-style: italic;}
+.play_name {text-transform: uppercase; font-weight:bold; font-style: none;}
+.subtitle {font-weight:normal; font-style: italic;} 
+.person {font-weight:bold; font-style: none;}
+.border_dead {border: 2px solid black; padding: 3px 7px ; margin: 5px 3px; width: 150px;}
+.special {font-family: Arial; color: #CC0000;  font-size:16px; font-weight:bold; text-decoration: none; text-align: center;}

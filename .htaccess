@@ -1,0 +1,34 @@
+# Редиректы со старых страниц (в чистом html)
+RewriteEngine On
+
+	## Редиректы основных страниц
+	RewriteRule ^history\.html$ http://%{HTTP_HOST}/history.php [L,R=permanent]			# Штрихи истории
+	RewriteRule ^main\.html$ http://%{HTTP_HOST}/main.php [L,R=permanent]				# Главная страница
+	RewriteRule ^afisha\.html$ http://%{HTTP_HOST}/affiche.php [L,R=permanent]			# Афиша
+	RewriteRule ^dorr\.html$ http://%{HTTP_HOST}/dorr.php [L,R=permanent]				# Дело о реабилитации Ревизора
+	RewriteRule ^zak\.html$ http://%{HTTP_HOST}/order.php [L,R=permanent]				# Заказ билетов
+	RewriteRule ^zakaz\.html$ http://%{HTTP_HOST}/order.php [L,R=permanent]				# Заказ билетов, в т.ч. и на конкретные спектакли (пока не надо)
+	RewriteRule ^repert\.html$ http://%{HTTP_HOST}/repertoire.php [L,R=permanent]		# Репертуар
+	
+
+	## Редиректы спектаклей
+	RewriteRule ^sp/vv\.html$ http://%{HTTP_HOST}/sp/vv.php [L,R=permanent]					# Вешние воды (масса внешних ссылок с клонов Википедии)
+	RewriteRule ^sp/jen\.html$ http://%{HTTP_HOST}/sp/jen.php [L,R=permanent]				# Женитьба (масса внешних ссылок с клонов Википедии)
+	RewriteRule ^sp/jen_fot\.html$ http://%{HTTP_HOST}/sp/jen_photo.php [L,R=permanent]		# Женитьба (фотографии)
+	RewriteRule ^sp/vj\.html$ http://%{HTTP_HOST}/sp/vj.php [L,R=permanent]					# Весёлая жизнь
+	RewriteRule ^sp/ppi\.html$ http://%{HTTP_HOST}/sp/ppi.php [L,R=permanent]				# ППИ
+	RewriteRule ^sp/je_s\.html$ http://%{HTTP_HOST}/sp/je_s.php [L,R=permanent]				# Житейские эпизодики. Супруга
+	RewriteRule ^sp/molyer\.html$ http://%{HTTP_HOST}/sp/mb_cinema.php [L,R=permanent]		# Показ Мольера 
+	
+	## Редиректы членов труппы
+	RewriteRule ^air/.\D{1,}(\d{1,4})\.html$ http://%{HTTP_HOST}/person.php?num=$1 [L,R=permanent] 	# Все члены труппы по их табельным номерам.
+
+	RewriteRule ^air/air\.html$ http://%{HTTP_HOST}/air.php?page=1 [L,R=permanent]				# Актёры и роли. Стр. 1
+	RewriteRule ^air/air2\.html$ http://%{HTTP_HOST}/air.php?page=2 [L,R=permanent]				# Актёры и роли. Стр. 2
+	RewriteRule ^air/air3\.html$ http://%{HTTP_HOST}/air.php?page=3 [L,R=permanent]				# Актёры и роли. Стр. 3
+	RewriteRule ^air/tr\.html$ http://%{HTTP_HOST}/troupe.php [L,R=permanent]					# Действующая труппа
+	RewriteRule ^air/tr2\.html$ http://%{HTTP_HOST}/past_members.php?page=1 [L,R=permanent]		# Актёры прошлых лет. Стр. 1
+	RewriteRule ^air/tr2_2\.html$ http://%{HTTP_HOST}/past_members.php?page=2 [L,R=permanent]	# Актёры прошлых лет. Стр. 2
+	RewriteRule ^air/tr2_3\.html$ http://%{HTTP_HOST}/past_members.php?page=3 [L,R=permanent]	# Актёры прошлых лет. Стр. 3
+
+	

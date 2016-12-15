@@ -1,0 +1,7 @@
+td.charackter             {font-weight:bold; text-decoration: none; font-style: italic;}
+td.person                 {font-weight:bold;}
+a.person                {font-weight:bold;}
+td.job                    {font-style: italic;}
+span.chapter_title        {font-family: Arial; color: #663300;  font-size:16px; font-weight:bold; text-decoration: none;}
+span.chapter_subtitle    {font-style: italic;}
+span.job                {font-weight:normal; font-style: italic;}

@@ -1,0 +1,4 @@
+<files "zak.html">
+RedirectMatch "/" http://www.teatrstdom.ru/zak.html
+#AddType application/x-httpd-php .html
+</files>

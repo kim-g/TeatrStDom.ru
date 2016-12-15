@@ -1,0 +1,21 @@
+
+  
+function ShowDate(date)
+  {
+  $.get("tickets_JQ_server.php",{date: date},function(data)
+    {
+	var NewDiv = $('#OrderList');
+	//alert(data);
+	//nav.setLoc("?date="+date);
+	NewDiv.html(data);
+	});
+  }
+  
+function ShowDiv()
+  {
+  var sel = document.getElementById("date_s"); // Получаем наш список
+  var N = sel.options[sel.selectedIndex].value; // Получаем значение выделенного элемента
+  //alert(N);
+  
+  ShowDate(N);
+  }

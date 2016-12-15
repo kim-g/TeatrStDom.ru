@@ -1,0 +1,29 @@
+.bantx {font-family: Arial; color: #333333;  font-size:20px; font-weight:bold; text-decoration: none;}
+.bantx_i {font-family: Arial; color: #333333;  font-size:20px; font-weight:bold; text-decoration: none; font-style: italic;}
+.page_subtitle  {font-family: Arial; color: #663300;  font-size:16px; font-weight:bold; text-decoration: none;}
+.page_subtitle_quote {font-family: Arial; color: #663300;  font-size:16px; font-weight:bold; text-decoration: none; font-style: italic;}
+.menur {font-family: Arial; color: #663300;  font-size:18px; font-weight:bold; text-decoration: none;}
+.menu {font-family: Arial; color: #999999;  font-size:16px; font-weight:bold; text-decoration: none; font-style: italic;}
+.nt {font-family: Verdana; color: #333333; font-size:12px;}
+.nt_bold {font-family: Verdana; color: #333333; font-size:12px; font-weight:bold;}
+div.season {font-family: Verdana; color: #333333; font-size:12px; font-weight:bold; text-decoration: none; font-style: italic;}
+.web {font-family: Verdana; color: #FFFFFF; font-size:10px; text-decoration: none;}
+.stress_big_bold_colour_italic {font-family: Arial; color: #663300;  font-size:16px; font-weight:bold; text-decoration: none; font-style: italic;}
+.stress_big_bold_colour {font-family: Arial; color: #663300;  font-size:16px; font-weight:bold; text-decoration: none;}
+.stress_big_bold_white {font-family: Arial; color: #FFFFFF;  font-size:24px; font-weight:bold; text-decoration: none;}
+.stress_big_bold_black {font-family: Arial; color: #000000;  font-size:16px; font-weight:bold; text-decoration: none;}
+.stress_big_bold_colour_red {font-family: Arial; color: #FF0000;  font-size:16px; font-weight:bold; text-decoration: none;}
+.banfon {background-image: url(Img/ban4_3.jpg);}
+.menfon {background-image: url(Img/men_lin.gif);}
+.nizk  {background: #663300}
+.nizz  {background: #CC9966}
+.nizr  {background: #AA0000}
+a.menu:hover {color: #663300; text-decoration: underline;}
+a.stress_big_bold_colour:hover {text-decoration: underline;}
+
+
+/* Для афиш и репертуаров */
+.repertoire {font-family: Arial; color: #663300;  font-size:48px; font-weight:bold; text-decoration: none; font-style: italic;}
+.schelkunchik {font-family: Arial; color: #7030a0;  font-size:28px; font-weight:bold; text-decoration: none; font-style: italic;}
+.repertoire_green {font-family: Arial; color: #FFFFFF;  font-size:36px; font-weight:bold; text-decoration: none; background-color: #008800; padding: 10px;}
+.repertoire_green_small {font-family: Arial; color: #FFFFFF;  font-size:20px; font-weight:bold; text-decoration: none; background-color: #008800; padding: 10px;}

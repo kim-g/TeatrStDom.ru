@@ -1,0 +1,10 @@
+.date {font-family: Arial; color: #CC0000;  font-size:16px; font-weight:bold; text-decoration: none;}
+div.cite { /* Для цитаты в Новостях */
+    border-left: 2px solid #888888; /* Линия слева от текста */
+    padding-left: 10px; /* Расстояние между линией и текстом */
+    margin-left: 10px; /* Расстояние от левого края до линии */
+    font-style: italic; /* Всё курсивом */
+   }
+p.cite { /* Для цитаты в Новостях */
+    margin: 0px; /* Расстояние от левого края до линии */
+   }

@@ -1,0 +1,14 @@
+.podzag2 {font-family: Arial; color: #CC0000;  font-size:16px; font-weight:bold; text-decoration: none;}
+.podzag3 {font-family: Arial; color: #000000;  font-size:16px; font-weight:bold; text-decoration: none;}
+.tr {font-family: Verdana; color: #CC0000;  font-size:12px; font-weight:bold; text-decoration: none;}
+.tr_no_link {font-family: Verdana; color: #CC0000;  font-size:12px; text-decoration: none;}
+.tr2 {font-family: Verdana; color: #000000;  font-size:12px; font-weight:bold; text-decoration: none;}
+a.tr:hover {text-decoration: underline;}
+a.tr2:hover {text-decoration: underline;}
+.ramka	{border: 2px solid black; padding: 3px 7px; margin: 5px 3px; width: 130px;}
+
+.tdfon {background: #F7F7F7}
+.trfon {background: #999999}
+.years_selected {font-family: Arial; color: #663300;  font-size:16px; font-weight:bold; text-decoration: none; font-style: normal;}
+a.years_link {font-family: Arial; color: #999999;  font-size:16px; font-weight:bold; text-decoration: none; font-style: normal;}
+a.years_link:hover {font-family: Arial; color: #663300;  font-size:16px; font-weight:bold; text-decoration: none; font-style: normal; text-decoration: underline;}
