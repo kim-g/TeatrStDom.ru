@@ -1,13 +1,14 @@
 <?
-//Определение локальных текстовых констант
-$Page_Menu 	= "Репертуар";			//Выбранный пункт MainMenu
-$Play = "Житейские эпизодики», «Супруга";				//Название
-
-
 //Добавление модулей в проект.
 include "../main-texts.php"; 	//Добавление глобальных текстовых констант.
 include "spectacle.php";	//Общие функции спектаклей
 include "chars.php";            //Функции Актёр-роль
+
+//Определение локальных текстовых констант
+$Page_Menu 	= "Репертуар";			//Выбранный пункт MainMenu
+$Play = "Житейские эпизодики», «Супруга";				//Название
+$Page_SubTitle = Navigate($Play);			//Название под шапкой.
+
 
 
 ?>
@@ -36,7 +37,6 @@ include "chars.php";            //Функции Актёр-роль
 
 
       <DIV class=nt  align=justify> 
-	  <?=Navigate($Play);?>
         <br><br><br><br>
         <img src="img/je_s_b.png" align="left" vspace="2" hspace="20" alt="М. Зощенко Веселая жизнь" width="192" height="201"><span class=page_subtitle>Антон Чехов 
         «Житейские эпизодики», «Супруга»<br>

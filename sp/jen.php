@@ -2,6 +2,7 @@
 //Определение локальных текстовых констант
 $Page_Menu     = "Репертуар";            //Выбранный пункт MainMenu
 $Play = "Женитьба";                //Название
+$Page_SubTitle = Navigate($Play);			//Название под шапкой.
 
 
 //Добавление модулей в проект.
@@ -34,7 +35,6 @@ include "chars.php";            //Функции Актёр-роль
   ?>
      <!-- #BeginEditable "texy" --> 
      <DIV class=nt  align=justify> 
-      <?=Navigate($Play);?>
       <span class=page_subtitle>
        Николай Гоголь «Женитьба»<br> 
        (Совершенно невероятное событие в двух действиях)<br>

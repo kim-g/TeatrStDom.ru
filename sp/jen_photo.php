@@ -1,13 +1,13 @@
 <?
-//Определение локальных текстовых констант
-$Page_Menu 	= "Репертуар";			//Выбранный пункт MainMenu
-$Play = "Женитьба";				//Название
-
-
 //Добавление модулей в проект.
 include "../main-texts.php"; 	//Добавление глобальных текстовых констант.
 include "spectacle.php";	//Общие функции спектаклей
 include "chars.php";            //Функции Актёр-роль
+
+//Определение локальных текстовых констант
+$Page_Menu 	= "Репертуар";			//Выбранный пункт MainMenu
+$Play = "Женитьба";				//Название
+$Page_SubTitle = NavigatePhoto($Play,"jen");
 
 
 
@@ -35,7 +35,6 @@ include "chars.php";            //Функции Актёр-роль
   ?>
     <!-- #BeginEditable "texy" --> 
 	<div class=nt  align=justify> 
-	  <?=NavigatePhoto($Play,"jen");?> 
       <span class=chapter_title>Н.В. Гоголь «Женитьба»<br><br>
       Фотогалерея<br></span>
       <a href="jen.php"><b>О спектакле  &gt;&gt;</b></a><br><br><br>

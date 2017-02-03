@@ -66,8 +66,8 @@ $Page_SubTitle = "Текущий репертуар";			//Название по�
 			<br>
 			<b>1994 г.</b>
 			<br><br>
-			<b><a href="/order.php">Ближайший показ 26 ноября 18-00</a></b>
-			<br><br>
+			<?/*<b><a href="/order.php">Ближайший показ 26 ноября 18-00</a></b>
+			<br><br>*/?>
 			<b><a href="/sp/mb.php">О спектакле &gt;&gt;</a></b><br>
 			<b><a href="sp/mb_photo.php">Фотогалерея спектакля &gt;&gt;</a></b><br>
 			<b><a href="http://www.youtube.com/watch?v=6-WDvKmrYtQ" target="_blank">Видео &gt;&gt;</a></b>
@@ -201,6 +201,8 @@ $Page_SubTitle = "Текущий репертуар";			//Название по�
 			<a href="sp/rev.php" class=stress_big_bold_colour>«Ревизор»</a><br>
 		  
 			<b> 2012г.</b><br><br>
+			<b><a href="/order.php">Ближайший показ 18 февраля 18-00</a></b>
+			<br><br>
 			<b><a href="sp/rev.php">О спектакле &gt;&gt;</a></b><br>
 			<b><a href="sp/rev_photo.php">Фотогалерея спектакля &gt;&gt;</a></b> <br>
 			<b><a href="http://www.youtube.com/watch?v=mWRuPrknfUs" target="_blank">Видео &gt;&gt;</a></b><br>

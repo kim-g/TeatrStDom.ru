@@ -1,14 +1,13 @@
 <?
-//Определение локальных текстовых констант
-$Page_Menu     = "Репертуар";            //Выбранный пункт MainMenu
-$Play = "Концерт по заявкам";                //Название
-
-
 //Добавление модулей в проект.
 include "../main-texts.php";     //Добавление глобальных текстовых констант.
 include "spectacle.php";    //Общие функции спектаклей
 include "chars.php";            //Функции Актёр-роль
 
+//Определение локальных текстовых констант
+$Page_Menu     = "Репертуар";            //Выбранный пункт MainMenu
+$Play = "Концерт по заявкам";                //Название
+$Page_SubTitle = Navigate($Play);			//Название под шапкой.
 
 ?>
 <html><!-- #BeginTemplate "/Templates/main.dwt" -->
@@ -34,8 +33,6 @@ include "chars.php";            //Функции Актёр-роль
   ?>
      <!-- #BeginEditable "texy" --> 
      <div class=nt align=justify> 
-      <?=Navigate($Play);?>
-        <br><br><br><br>
         <img src="img/kpz.jpg" width="200" height="196" alt="Концерт по заявкам" vspace="2" hspace="20" align="left"> 
         <span class=page_subtitle> 
 		  Франц Ксавер Крёц<br>

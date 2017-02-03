@@ -196,7 +196,7 @@ function Value($Edit)
 	    <input type=hidden name=add_new_request value='1'>*/?>
 		<div class=stress_big_bold_colour style='border: 2px solid #FF0000; padding: 10px; max-width: 700; text-align: center;'>
 		  Осенний конкурсный набор желающих завершён <span class=stress_big_bold_colour_red>25.09.2016</span><br><hr>
-		  Следующий набор возможно будет объявлен в <span style="color: #008800">феврале 2017 г</span>.
+		  Следующий набор будет объявлен в <span style="color: #008800">июне 2017 г</span>.
 		</div>
 		
 		<?/*<table border=0 style='border: 2px solid #FF0000; padding: 10px; max-width: 700;'>

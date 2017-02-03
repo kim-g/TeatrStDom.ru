@@ -1,13 +1,13 @@
 <?
-//Определение локальных текстовых констант
-$Page_Menu 	= "Репертуар";			//Выбранный пункт MainMenu
-$Play = "Ревизор";				//Название
-
-
 //Добавление модулей в проект.
 include "../main-texts.php"; 	//Добавление глобальных текстовых констант.
 include "spectacle.php";	//Общие функции спектаклей
 include "chars.php";            //Функции Актёр-роль
+
+//Определение локальных текстовых констант
+$Page_Menu 	= "Репертуар";			//Выбранный пункт MainMenu
+$Play = "Ревизор";				//Название
+$Page_SubTitle = NavigatePhoto($Play,"rev");
 
 
 
@@ -35,7 +35,6 @@ include "chars.php";            //Функции Актёр-роль
   ?>
     <!-- #BeginEditable "texy" --> 
 	<div class=nt  align=justify> 
-	  <?=NavigatePhoto($Play,"rev");?> 
       <span class=chapter_title>Н. Гоголь «Ревизор» <br><br>
       Фотогалерея<br></span>
       <a href="rev.php"><b>О спектакле  &gt;&gt;</b></a><br><br><br>

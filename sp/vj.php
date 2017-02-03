@@ -1,13 +1,14 @@
 <?
-//Определение локальных текстовых констант
-$Page_Menu     = "Репертуар";            //Выбранный пункт MainMenu
-$Play = "Весёлая жизнь";                //Название
-
-
 //Добавление модулей в проект.
 include "../main-texts.php";     //Добавление глобальных текстовых констант.
 include "spectacle.php";    //Общие функции спектаклей
 include "chars.php";            //Функции Актёр-роль
+
+//Определение локальных текстовых констант
+$Page_Menu     = "Репертуар";            //Выбранный пункт MainMenu
+$Play = "Весёлая жизнь";                //Название
+$Page_SubTitle = Navigate($Play);
+
 
 
 ?>
@@ -34,7 +35,6 @@ include "chars.php";            //Функции Актёр-роль
   ?>
      <!-- #BeginEditable "texy" --> 
      <DIV class=nt  align=justify> 
-      <?=Navigate($Play);?>
         <img src="/Img/vj_af.jpg" align="left" vspace="2" hspace="20" alt="М. Зощенко Веселая жизнь" width="192" height="151">
         <span class=page_subtitle>
          Михаил Зощенко «Весёлая жизнь»<br>

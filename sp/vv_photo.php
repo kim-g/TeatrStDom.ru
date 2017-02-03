@@ -1,14 +1,14 @@
 <?
-//Определение локальных текстовых констант
-$Page_Menu 	= "Репертуар";			//Выбранный пункт MainMenu
-$Play = "Вешние воды";				//Название
-$Space = true;						//Добавляет расстояние между строками в списке актёров
-
-
 //Добавление модулей в проект.
 include "../main-texts.php"; 	//Добавление глобальных текстовых констант.
 include "spectacle.php";	//Общие функции спектаклей
 include "chars.php";            //Функции Актёр-роль
+
+//Определение локальных текстовых констант
+$Page_Menu 	= "Репертуар";			//Выбранный пункт MainMenu
+$Play = "Вешние воды";				//Название
+$Space = true;						//Добавляет расстояние между строками в списке актёров
+$Page_SubTitle = NavigatePhoto($Play,"vv");
 
 
 
@@ -36,7 +36,6 @@ include "chars.php";            //Функции Актёр-роль
   ?>
     <!-- #BeginEditable "texy" --> 
 	<div class=nt  align=justify> 
-	  <?=NavigatePhoto($Play,"vv");?> 
       <span class=chapter_title>Иван Тургенев «Вешние воды»<br><br>
       Фотогалерея<br></span>
       <a href="vv.php"><b>О спектакле  &gt;&gt;</b></a><br><br><br>

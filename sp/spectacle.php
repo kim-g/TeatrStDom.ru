@@ -1,12 +1,10 @@
 <?
 function Navigate($Play)
-  {echo "      <a href='../repertoire.php'><b>РЕПЕРТУАР</b></a> / <b>«{$Play}»</b>
-      <br><br><br><br><br>";
+  {return "      <a href='../repertoire.php'><b>Текущий репертуар</b></a> / <b>«{$Play}»</b>";
   };
   
 function NavigatePhoto($Play,$PlayAddr)
-  {echo "      <a href='../repertoire.php'><b>РЕПЕРТУАР</b></a> / <a href='{$PlayAddr}.php'><b>«{$Play}»</b></a> / <b> Фотогалерея </b>
-      <br><br><br><br><br>";
+  {return "      <a href='../repertoire.php'><b>Текущий репертуар</b></a> / <a href='{$PlayAddr}.php'><b>«{$Play}»</b></a> / <b> Фотогалерея </b>";
   };
 
 function Video($Label, $Addr)

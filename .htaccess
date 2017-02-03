@@ -18,6 +18,7 @@ RewriteEngine On
 	RewriteRule ^sp/vj\.html$ http://%{HTTP_HOST}/sp/vj.php [L,R=permanent]					# Весёлая жизнь
 	RewriteRule ^sp/ppi\.html$ http://%{HTTP_HOST}/sp/ppi.php [L,R=permanent]				# ППИ
 	RewriteRule ^sp/je_s\.html$ http://%{HTTP_HOST}/sp/je_s.php [L,R=permanent]				# Житейские эпизодики. Супруга
+	RewriteRule ^sp/kpz\.html$ http://%{HTTP_HOST}/sp/kpz.php [L,R=permanent]				# Концерт по заявкам
 	RewriteRule ^sp/molyer\.html$ http://%{HTTP_HOST}/sp/mb_cinema.php [L,R=permanent]		# Показ Мольера 
 	
 	## Редиректы членов труппы
